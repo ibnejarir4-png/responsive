@@ -1,0 +1,783 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+.topbar {
+  height: 100px;
+  width: 100%;
+  background-color: #cde2f6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  height: 90px;
+  width: 150px;
+}
+
+.toplink {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+
+  li a {
+    text-decoration: none;
+    color: #122c89;
+  }
+}
+
+.menu {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: none;
+  font-size: 2rem;
+}
+
+.cross {
+  display: none;
+}
+
+.text {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.six {
+  width: 40%;
+  font-size: 36px;
+  line-height: 46px;
+  color: #122c89;
+}
+
+.para {
+  text-align: justify;
+  width: 40%;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.box {
+  height: 110px;
+  width: 195px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #a3ccf3;
+}
+
+.des {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.inqury {
+  width: 80%;
+  background-image: url("https://img.magnific.com/free-photo/modern-minimalist-office_23-2151780762.jpg?semt=ais_hybrid&w=740&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  height: 130px;
+  margin: 90px auto 0 auto;
+  justify-content: space-evenly;
+}
+
+.abc {
+  width: 60%;
+}
+
+.chat {
+  color: rgb(255, 255, 255);
+}
+
+.call {
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  background-color: #2545b8;
+  color: white;
+}
+
+.led {
+  color: #2545b8;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  margin-top: 45px;
+  display: flex;
+  gap: 45px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic {
+  height: 220px;
+  width: 250px;
+}
+
+.jpg {
+  height: 220px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.major {
+  margin-top: 120px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imge {
+  height: 300px;
+  width: 500px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  object-fit: cover;
+}
+
+.left {
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+.btn3 {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(18, 18, 156);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+.more {
+  margin: 80px auto auto 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.png {
+  height: 350px;
+  width: 380px;
+  object-fit: cover;
+}
+
+.definition {
+  text-align: justify;
+  width: 40%;
+  line-height: 28px;
+  font-size: 18px;
+  margin-left: 46px;
+}
+
+.smd {
+  font-size: 40px;
+  color: #00008b;
+}
+
+.di {
+  display: flex;
+  gap: 140px;
+  justify-content: center;
+  align-items: center;
+}
+
+.definition2 {
+  text-align: justify;
+  width: 40%;
+  line-height: 28px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.smd2 {
+  font-size: 40px;
+  color: #00008b;
+}
+
+.bottom {
+  margin-top: 80px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.first {
+  width: 30%;
+  height: 600px;
+  background-color: #23053f;
+  border-radius: 15px;
+}
+
+.info {
+  color: white;
+}
+
+.row {
+  margin: 30px auto auto 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.font {
+  height: 44px;
+  width: 46px;
+  border-radius: 50%;
+  font-size: 36px;
+  color: rgb(4, 4, 4);
+  background-color: white;
+}
+
+.lctn {
+  color: white;
+  font-size: 20px;
+}
+
+.phone {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  margin-left: 08px;
+}
+
+.mbl {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  font-size: 34px;
+  color: rgb(4, 4, 4);
+  background-color: white;
+}
+
+.nmbr {
+  color: white;
+  font-size: 20px;
+}
+
+.ver {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  margin-left: 08px;
+}
+
+.mail {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  font-size: 34px;
+  color: rgb(4, 4, 4);
+  background-color: white;
+}
+
+.email {
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.twice {
+  width: 40%;
+  height: 600px;
+  background-color: #a085b9;
+  border-radius: 15px;
+}
+
+.git {
+  text-align: center;
+}
+
+.des2 {
+  text-align: justify;
+  margin-top: 35px;
+  color: black;
+}
+
+.free {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.booking {
+  background-color: #230241;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  .topbar {
+    height: 80px;
+  }
+
+  .logo {
+    height: 70px;
+    width: 120px;
+  }
+
+  .toplink {
+    font-size: 12px;
+  }
+
+  .six {
+    font-size: 27px;
+  }
+
+  .para {
+    font-size: 15px;
+  }
+
+  .boxes {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    height: 100px;
+    width: 178px;
+  }
+
+  .des {
+    font-size: 16px;
+  }
+
+  .abc {
+    width: 45%;
+  }
+
+  .chat {
+    font-size: 14px;
+  }
+
+  .call {
+    font-size: 12px;
+    padding: 10px;
+    height: 40px;
+  }
+
+  .led {
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  .picture {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .pic {
+    height: 200px;
+    width: 210px;
+  }
+
+  .jpg {
+    height: 190px;
+    width: 210px;
+  }
+
+  .xyz {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .major {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .imge {
+    height: 260px;
+    width: 380px;
+  }
+
+  .left {
+    margin-left: 40px;
+  }
+  .xy {
+    font-size: 15px;
+  }
+
+  .btn3 {
+    font-size: 15px;
+  }
+
+  .more {
+    margin-top: 40px;
+  }
+
+  .mono {
+    margin: 0px;
+    gap: 35px;
+    width: 100%;
+  }
+
+  .di {
+    margin: 50px auto;
+    gap: 55px;
+    width: 100%;
+  }
+
+  .png {
+    height: 300px;
+    width: 280px;
+  }
+
+  .definition {
+    width: 25%;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .smd {
+    font-size: 30px;
+  }
+
+  .definition2 {
+    width: 25%;
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  .smd2 {
+    font-size: 30px;
+  }
+
+  .bottom {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .first {
+    width: 80%;
+    height: 100vh;
+  }
+
+  .info {
+    font-size: 22px;
+  }
+
+  .font {
+    height: 35px;
+    width: 37px;
+    font-size: 30px;
+  }
+
+  .lctn {
+    font-size: 15px;
+  }
+
+  .mbl {
+    height: 35px;
+    width: 37px;
+    font-size: 30px;
+  }
+
+  .nmbr {
+    font-size: 15px;
+  }
+
+  .mail {
+    height: 35px;
+    width: 37px;
+    font-size: 30px;
+  }
+
+  .email {
+    font-size: 15px;
+  }
+
+  .twice {
+    width: 80%;
+    height: 80vh;
+  }
+}
+
+@media (max-width: 670px) {
+
+
+  html, body{
+  
+  overflow-x: hidden;
+}
+
+  .topbar {
+    height: 70px;
+    position: relative;
+  }
+
+  .logo {
+    height: 65px;
+    width: 110px;
+  }
+
+  .toplink {
+    position: absolute;
+    font-size: 18px;
+    top: 100%;
+    right: -100%;
+    
+    width: 200px;
+    background-color: #d1e5f5;
+    box-shadow: rgba(0, 0, 0.5);
+    padding: 15px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    transition: right 0.5sec ease-in-out;
+  
+   
+  }
+
+  .toplink.show {
+    right: 2%;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .text {
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .six {
+    font-size: 28px;
+    width: 70%;
+  }
+
+  .para {
+    font-size: 13px;
+    width: 70%;
+  }
+
+  .boxes {
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    height: 95px;
+    width: 170px;
+  }
+
+  .des {
+    font-size: 13px;
+  }
+
+  .abc {
+    width: 40%;
+  }
+
+  .chat {
+    font-size: 12px;
+  }
+
+  .call {
+    font-size: 10px;
+    padding: 08px;
+    height: 35px;
+  }
+
+  .led {
+    margin-top: 60px;
+    font-size: 17px;
+  }
+
+  .picture {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .pic {
+    height: 195px;
+    width: 195px;
+  }
+
+  .jpg {
+    height: 190px;
+    width: 195px;
+  }
+
+  .xyz {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .major {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .imge {
+    height: 250px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    justify-content: center;
+  }
+  .xy {
+    font-size: 12px;
+  }
+
+  .btn3 {
+    font-size: 12px;
+  }
+
+  .more {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mono {
+    margin: 0px;
+    gap: 25px;
+    width: 100%;
+  }
+
+  .di {
+    margin: 50px auto;
+    gap: 45px;
+    width: 100%;
+  }
+
+  .png {
+    height: 250px;
+    width: 220px;
+  }
+
+  .definition {
+    width: 25%;
+    line-height: 14px;
+    font-size: 10px;
+  }
+
+  .smd {
+    font-size: 23px;
+  }
+
+  .definition2 {
+    width: 25%;
+    line-height: 14px;
+    font-size: 10px;
+    margin-left: 0px;
+  }
+
+  .smd2 {
+    font-size: 23px;
+  }
+
+  .bottom {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .first {
+    width: 80%;
+    height: 100vh;
+  }
+
+  .info {
+    font-size: 18px;
+  }
+
+  .font {
+    height: 30px;
+    width: 32px;
+    font-size: 27px;
+  }
+
+  .lctn {
+    font-size: 12px;
+  }
+
+  .mbl {
+    height: 30px;
+    width: 30px;
+    font-size: 27px;
+  }
+
+  .nmbr {
+    font-size: 12px;
+  }
+
+  .mail {
+    height: 30px;
+    width: 32px;
+    font-size: 27px;
+  }
+
+  .email {
+    font-size: 12px;
+  }
+
+  .twice {
+    width: 80%;
+    height: 80vh;
+  }
+
+  .git {
+    font-size: 20px;
+  }
+
+  .des2 {
+    font-size: 14px;
+  }
+
+  .booking {
+    font-size: 13px;
+  }
+}
